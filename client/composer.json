@@ -1,0 +1,15 @@
+{
+    "name": "alex/client",
+    "authors": [
+        {
+            "name": "Alexey Sinyavsky",
+            "email": "sinyavskij00@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "description": "Test"
+}

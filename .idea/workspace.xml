@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa91822-c8e6-4877-9336-e512f6bf6e84" name="Default Changelist" comment="" />
+    <list default="true" id="caa91822-c8e6-4877-9336-e512f6bf6e84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/IndexHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/IndexHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/Util/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/Util/Http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/data/links.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/data/links.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/security.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/security.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +23,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/client/vendor/composer" />
@@ -21,6 +33,8 @@
   </component>
   <component name="ProjectId" id="1pMEj8pm3uZGEUCa2CurwaKFcDf" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -56,10 +70,22 @@
       <workItem from="1614984699543" duration="5117000" />
       <workItem from="1615115229061" duration="14312000" />
       <workItem from="1615135681791" duration="6216000" />
+      <workItem from="1615204926109" duration="12976000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

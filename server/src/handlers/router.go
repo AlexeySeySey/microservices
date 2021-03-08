@@ -8,6 +8,6 @@ var Router map[string]func(w http.ResponseWriter, r *http.Request);
 
 func InitRouter(){
    Router = map[string]func(w http.ResponseWriter, r *http.Request) {
-       		  "/links-with-word/": Foo,
+       		  "/links-with-word/": LinksWithWord,
    }
 }

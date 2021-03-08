@@ -6,7 +6,6 @@ import (
 )
 
 func PreHandleRequest(w http.ResponseWriter, r *http.Request) {
-
    if r.Host != config.AllowedOrigin || r.URL.Query()["key"][0] != config.SecretKey {
       return;
    }

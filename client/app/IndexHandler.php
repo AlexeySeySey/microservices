@@ -8,25 +8,22 @@ class IndexHandler
 {
     public function foo()
     {
-        $word = "foo";
-        $links = include "../data/links.json";
+        $baseWord = "AJAX is a developer's dream, because you can";
+        $word = base64_encode($baseWord);
+        $links = file_get_contents("data/links.json");
         $requestLink = sprintf(
-            "http://localhost:8081/links-with-word/?key=%s&word=&links=%s",
+            "http://localhost:8081/links-with-word/?key=%s&word=%s&links=%s",
             REQUEST_KEY,
             $word,
-            http_build_query($links)
+            implode(",", json_decode($links))
         );
-
         $linksWithWord = Http::get($requestLink);
+        $linksWithWord = array_filter($linksWithWord);
+        $linksWithWord = implode(", ", $linksWithWord);
+        if (!$linksWithWord) {
+            $linksWithWord = "none";
+        }
 
-        // TODO: can't run PHP
-
-        return $linksWithWord;
-
-//        $linksWithWord = count($linksWithWord) > 0 ?
-//            implode(", ", $linksWithWord) :
-//            "none";
-//
-//        return sprintf("Links with '%s': %s", $word, $linksWithWord);
+        echo sprintf("Links with '%s': %s%s", $baseWord, $linksWithWord, PHP_EOL);
     }
 }
